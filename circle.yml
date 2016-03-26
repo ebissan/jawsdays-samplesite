@@ -20,6 +20,6 @@ deployment:
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://20160326miyamoto-stage>/ --delete
+      - aws s3 sync html/ s3://20160326miyamoto-stage/ --delete
 
 
